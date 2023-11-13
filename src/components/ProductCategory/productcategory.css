@@ -1,0 +1,25 @@
+.prodCategory {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    color: black;
+    padding-top: 0.8rem;
+    margin-bottom: -0.1rem;
+  }
+  
+  .prodCategory button {
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  button.default {
+    color: rgb(161, 255, 68);
+    text-decoration: underline rgb(161, 255, 68) 0.2rem;
+    text-underline-offset: 1.2rem;
+  }

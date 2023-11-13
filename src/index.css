@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 0.8rem;
+}
+
+body::-webkit-scrollbar-track {
+  border: 0.25em solid darkgray;
+  background-color: darkgray;
+  border-radius: 0.8rem;
+  margin: 0.5em;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: lightgray;
+  border-radius: 0.8rem;
+}

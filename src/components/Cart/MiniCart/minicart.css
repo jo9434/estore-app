@@ -1,0 +1,155 @@
+.mainButton { cursor: pointer; }
+
+#cartSize {
+    color: white;
+    margin-top: -0.6rem;
+    margin-left: -0.2rem;
+    height: 1.46rem !important;
+    width: 1.46rem !important;
+    border-radius: 2rem;
+    height: 1.4rem;
+    width: 1rem;
+    font-size: 1rem;
+    padding: 0.02rem 0.5rem;
+    background-color: black;
+}
+
+.miniCart {
+    display: none;
+    position: relative;
+    z-index: 100;
+    height: 34rem;
+    width: 20rem;
+    padding: 1.2rem 0.68rem;
+    margin-top: 0.6rem !important;
+    margin-left: 64rem;
+    border: none;
+    background-color: white;
+    box-shadow: -0.001rem -0.001rem 0.2rem 0.2rem whitesmoke;
+    border-radius: 0.1rem;
+    animation: minicartload 0.2s ease-in-out;
+}
+
+.miniCart h1 { text-transform: capitalize; font-size: 0.8rem; font-weight: bold; }
+
+.miniCart p { margin-top: -1.6rem; margin-left: 3.1rem; font-size: 0.8rem; }
+
+.prodcard1 { margin-left: -3rem; margin-top: 2.4rem; }
+
+.prodcard2 { margin-left: -3rem; margin-top: 1.2rem; }
+
+.prodcard3 { margin-left: -3rem; margin-top: 4.2rem; }
+
+.prodname { text-transform: capitalize; }
+
+.prodprice1, .prodprice2, .prodprice3 { margin-left: 3rem !important; margin-top: -0.8rem !important; font-weight: bold; }
+
+.prodsizegrp { margin-top: 2.2rem !important; margin-left: -0.2rem; }
+
+.prodsizeopt, .prodcoloropt { margin-left: 3rem; margin-top: -0.8rem; font-size: 0.8rem !important; }
+
+.optn {
+    padding: 0 0.15rem;
+    font-size: 0.92rem;
+    margin-right: 0.4rem;
+    border: 0.1rem solid orange;
+    border-radius: 2rem;
+    color: black;
+}
+
+.mcsizeS, .mcsizeL { padding: 0 0.42rem; }
+
+.mcsizeM { padding: 0 0.28rem; }
+
+.activeopt { border-color: orange; background-color: orange; color: white; }
+
+.activeopt:hover { color: white; }
+
+.prodcolorgrp { margin-top: 2.2rem; margin-left: -0.2rem; }
+
+.colr {
+    height: 1.2rem;
+    width: 1.2rem;
+    padding: 0 0.15rem;
+    font-size: 0.92rem;
+    border-radius: 2rem;
+    margin-right: 0.4rem;
+}
+
+.mcclrgry { background-color: lightgray; border: 0.1rem solid lightgray; }
+
+.mcclrblk { background-color: black; border: 0.1rem solid black; }
+
+.mcclrdrkgrn { background-color: green; border: 0.1rem solid green; }
+
+.mcclrdgrblu { background-color: dodgerblue; border: 0.1rem solid dodgerblue; }
+
+.mcclrorg { background-color: orange; border: 0.1rem solid orange; }
+
+.activecolr { padding: 0.7rem !important; }
+
+.buttons { margin-left: 12rem; margin-top: -10rem; }
+
+.btnincr1, .btnincr2, .btndecr1, .btndecr2 {
+    padding: 0 0.28rem;
+    margin-left: -0.6rem;
+    border-radius: 0.8rem;
+    border: 0.1rem solid orange;
+}
+
+.btnincr1, .btnincr2 { margin-top: -1.8rem; }
+
+.btndecr1, .btndecr2 { margin-top: 2.5rem; }
+
+.prodqty1, .prodqty2 { margin-left: -0.2rem; margin-top: 2.8rem; font-size: 0.8rem; }
+
+.btnincr1:active, .btnincr2:active, .btndecr1:active, .btndecr2:active { background-color: orange; border-color: orange; color: white; }
+
+.prodimg {
+    height: 11rem;
+    width: 7.4rem;
+    margin-left: 14rem;
+    margin-top: -12.6rem;
+}
+
+.subtotal { display: inline-flex; position: relative; }
+
+.subtotalheading, .subtotalprice { font-size: 1rem; font-weight: bold; }
+
+.subtotalheading { margin-right: 11.8rem; }
+
+.btngroups { margin-top: 0.8rem; text-align: center; }
+
+.btnviewbag, .btnchckout { border-radius: 0.8rem; text-transform: uppercase; }
+
+.btnviewbag { margin-right: 0.6rem; border: 0.1rem solid orange; }
+
+.btnchckout { background-color: lightgreen; border: 0.1rem solid lightgreen; }
+
+.btnviewbag:hover { background-color: orange; border-color: orange; }
+
+.btnchckout:hover { background-color: white; border: 0.1rem solid lightgreen; }
+
+@keyframes minicartload {
+    from { opacity: 0; transform: scale(0,1); }
+    to { opacity: 1; }
+}
+
+/* Custom Scrollbar */
+.miniCart::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 0.8rem;
+}
+  
+.miniCart::-webkit-scrollbar-track {
+    border: 0.25em solid darkgray;
+    background-color: darkgray;
+    border-radius: 0.8rem;
+    margin: 0.5em;
+}
+  
+.miniCart::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 0.8rem;
+}

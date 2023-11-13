@@ -1,0 +1,230 @@
+.mainCardGroup { padding: 1rem; }
+
+.homeCardHeading, .womenCardHeading, .menCardHeading, .kidsCardHeading { padding: 2rem; }
+
+.colbar1 {
+    border: 0.1rem solid #ffc107;
+    margin-bottom: 4rem;
+    opacity: 100%;
+    height: 1.2rem;
+    width: 75.2rem;
+    margin-left: 1.18rem;
+    border-radius: 0.8rem;
+}
+
+.colbar2 {
+    border: 0.1rem solid #ffc107;
+    margin-top: 4rem;
+    opacity: 100%;
+    height: 1.2rem;
+    width: 75.2rem;
+    margin-left: 1.18rem;
+    margin-bottom: -10rem;
+    border-radius: 0.8rem;
+}
+
+.homeSubGroup, .womenSubGroup, .menSubGroup, .kidsSubGroup { position: relative; }
+
+.cardGroup {
+    display: inline-flex;
+    margin-top: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0.8rem;
+    border: none;
+    height: 22rem;
+    width: 21.6rem;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: all 0.8s ease-in-out;
+}
+
+.cardGroup:hover {
+    box-shadow: -0.001rem -0.001rem 0.2rem 0.4rem whitesmoke;
+    border-radius: 0.1rem;
+}
+
+.cardImage { height: 16rem; width: 20rem; }
+
+.cardHeading { margin-top: 1.2rem; text-transform: capitalize; }
+
+.cardPrice { margin-top: -1rem; }
+
+.noStock {
+    opacity: 50%;
+    cursor: not-allowed;
+}
+
+.noStockText {
+    position: absolute;
+    padding: 5.8rem 3.25rem;
+    font-size: 1.77rem;
+    text-transform: uppercase;
+}
+
+.cardButton, .homeCardButton {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    height: 2.6rem;
+    width: 2.6rem;
+    visibility: hidden;
+    background-color: lightgreen !important;
+    border-radius: 2rem;
+    color: white !important;
+    margin-top: -6.5rem;
+    margin-left: 16.6rem;
+}
+
+#homeCardGroup:hover .homeCardButton, #womenCardGroup:hover .cardButton, #menCardGroup:hover .cardButton, #kidsCardGroup:hover .cardButton { visibility: visible; animation: iconload 1.2s ease-in-out; }
+
+#womenGroup, #menGroup, #kidsGroup { display: none; }
+
+.modalbody { overflow: hidden !important; margin-top: -2rem; background: white; padding: 1.8rem; }
+
+.modal-content { background: transparent; margin-top: 0.4rem; }
+
+.btnclose {
+    border: none;
+    font-size: 2rem;
+    margin-top: 0.4rem;
+    margin-left: 72.6rem;
+    background-color: transparent;
+    color: rgb(254, 116, 116);
+    transition: all 0.2s ease-in-out;
+}
+
+.btnclose:hover { color: red; }
+
+.colbar3 {
+    z-index: 10;
+    border: 0.1rem solid #ffc107;
+    margin-top: 1rem;
+    margin-bottom: 1.8rem;
+    opacity: 100%;
+    height: 1.2rem;
+    width: 73rem;
+    margin-left: 2.88rem;
+    border-radius: 0.8rem;
+}
+
+.img-group {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-top: -1.2rem;
+    flex-direction: column;
+}
+
+.imgcard { height: 4.4rem; width: 4.4rem; margin-bottom: 0.8rem; }
+
+.mainimgcard { height: 24rem; width: 26rem; margin-left: 5.8rem; margin-top: -15.6rem; }
+
+.subsection {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.hgpageheading { font-size: 2rem; margin-left: 38.4rem; margin-top: -24.54rem; text-transform: capitalize; }
+
+.hgpageheading b { font-weight: 450; }
+
+.hgprodsizegrp, .hgprodcolorgrp { margin-left: 38.8rem !important; text-transform: uppercase !important; z-index: 100 !important; }
+
+.hgprodsize { font-weight: bold; margin-top: -0.6rem; }
+
+.hgprodsizeopt, .hgprodcoloropt { margin-left: -0.2rem !important; margin-top: 0.2rem !important; }
+
+.hgoptn {
+    padding: 0 0.2rem !important;
+    font-size: 1.2rem !important;
+    margin-right: 0.4rem;
+    border: 0.1rem solid orange;
+    border-radius: 2rem;
+    color: black;
+    transition: all 0.4s ease-in-out;
+}
+
+.sizeS, .sizeL { padding: 0 0.6rem !important; }
+
+.sizeM { padding: 0 0.34rem !important; }
+
+.pgactiveopt { border-color: orange; background-color: orange; color: white; }
+
+.pgactiveopt:hover { color: white; }
+
+.hgprodcolor { font-weight: bold; text-transform: uppercase; margin-top: 1.6rem; }
+
+.hgcolr {
+    height: 1.2rem;
+    width: 1.2rem;
+    padding: 0 0.15rem;
+    font-size: 0.92rem;
+    border-radius: 2rem;
+    margin-right: 0.4rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.clrgry { background-color: lightgray; border: 0.2rem solid lightgray; }
+
+.clrblk { background-color: black; border: 0.2rem solid black; }
+
+.clrdrkgrn { background-color: green; border: 0.2rem solid green; }
+
+.clrdgrblu { background-color: dodgerblue; border: 0.2rem solid dodgerblue; }
+
+.clrorg { background-color: orange; border: 0.2rem solid orange; }
+
+.pgactivecolr { padding: 0.7rem !important; }
+
+.pricegroup { margin-left: 38.8rem; margin-top: 1.42rem; text-transform: uppercase; }
+
+.hg1price { font-size: 1.34rem; margin-top: 0.2rem; }
+
+.addcartbtn {
+    height: 2.4rem;
+    width: 14rem;
+    margin-left: 38.8rem;
+    color: white !important;
+    background-color: lightgreen;
+    text-transform: uppercase;
+}
+
+.txtdesc {
+    font-size: 0.8rem;
+    margin-top: 1.4rem;
+    margin-right: 10rem;
+    margin-left: 38.8rem;
+}
+
+.msgSuccess {
+    display: none;
+    position: fixed;
+    border: none;
+    margin-top: 24rem;
+    margin-left: 1.96rem;
+    border-radius: 0.6rem;
+    z-index: 100 !important;
+    transition: all 2s ease-in-out !important;
+}
+
+.btnClose {
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 0.1rem;
+    margin-left: 0.4rem;
+    background-color: transparent;
+    color: rgb(254, 116, 116);
+    transition: all 0.2s ease-in-out;
+}
+
+.btnClose:hover { color: red; }
+
+@keyframes iconload {
+    from { opacity: 0; transform: rotate(180deg); margin-top: -3.4rem; }
+    to { opacity: 1; }
+}
